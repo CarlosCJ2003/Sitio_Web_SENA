@@ -47,7 +47,7 @@ body {
 .grid-container{
     display: grid;
     gap: 20px;
-    grid-template-rows: auto auto auto auto 100px;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     "header"
     "navbar"
