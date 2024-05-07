@@ -47,7 +47,7 @@ body {
 .grid-container{
     display: grid;
     gap: 20px;
-    grid-template-rows: auto auto auto auto 100px;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     "header"
     "navbar"
@@ -129,7 +129,7 @@ body {
             "header     header" auto
             "navbar     navbar" auto
             "sidebar    main" auto
-            "footer     footer" 100px/
+            "footer     footer" auto/
             200px       auto;
             }
         }
@@ -149,7 +149,7 @@ body {
                 grid-template: 
                 "header     header      header" auto
                 "navbar     main        sidebar" auto
-                "footer     footer      footer" 100px/
+                "footer     footer      footer" auto/
                 200px      auto        200px;
                 }
             }
