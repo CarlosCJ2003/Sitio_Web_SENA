@@ -1,0 +1,75 @@
+/* styles_contact.css */
+
+/* Estilos para el formulario de contacto */
+.main form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para la información de contacto en el sidebar */
+.sidebar {
+    background-color: rgba(77, 237, 106, 0.74);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    margin-bottom: 10px;
+    overflow-wrap: break-word; /* Agregamos esta propiedad para que el texto se ajuste dentro del área */
+}
+
+/* Estilos adicionales */
+@media (max-width: 768px) {
+    .main form {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main form {
+        max-width: 100%;
+    }
+}

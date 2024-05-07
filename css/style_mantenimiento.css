@@ -1,0 +1,56 @@
+/* Estilos específicos para la página de mantenimiento */
+
+/* Estilos para los servicios de mantenimiento */
+.main .service {
+    margin-bottom: 20px;
+}
+
+.main .service h3 {
+    color: #333;
+}
+
+.main .service p {
+    color: #666;
+}
+
+/* Estilos para la barra lateral */
+/* Estilos para la barra lateral */
+.sidebar {
+    background-color: rgba(77, 237, 106, 0.74);
+    padding: 20px;
+    color: #000000; /* Color del texto */
+    word-wrap: break-word; /* Ajustar el texto al encapsulamiento */
+    overflow-wrap: break-word; /* Compatibilidad con navegadores más antiguos */
+}
+
+/* Estilos para el aside */
+.sidebar {
+    background-color: rgba(77, 237, 106, 0.74);
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.sidebar p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+
+
+/* Estilos adicionales */
+@media (max-width: 768px) {
+    .main form {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main form {
+        max-width: 100%;
+    }
+}
